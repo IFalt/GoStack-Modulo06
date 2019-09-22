@@ -1,6 +1,8 @@
 import React from 'react';
 import {StyleSheet, View, Text} from 'react-native';
 
+import './config/ReactotronConfig';
+
 const styles = StyleSheet.create({
   container: {
     flex: 1,
@@ -13,6 +15,8 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
 });
+
+console.tron.log('Hello World');
 
 const App = () => {
   return (
